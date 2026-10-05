@@ -18,6 +18,7 @@ Test.@testset "Package RadiationDetectorDSP" begin
     include("test_cusp_filter.jl")
     include("test_gaussian_filter.jl")
     include("test_signal_stats.jl")
+    include("test_exponential_stats.jl")
 
     # doctests
     Documenter.DocMeta.setdocmeta!(
